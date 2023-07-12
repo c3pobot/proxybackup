@@ -1,0 +1,18 @@
+{
+  "name": "proxybackup",
+  "version": "1.0.0",
+  "description": "used to back up and restore npm proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "chmod a+x buildtestimage.sh && ./buildtestimage.sh c3pobot/proxybackup",
+    "prod": "chmod a+x buildprodimage.sh && ./buildprodimage.sh c3pobot/proxybackup"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "node-fetch": "^2.6.7",
+    "zip-dir": "^2.0.0"
+  }
+}
